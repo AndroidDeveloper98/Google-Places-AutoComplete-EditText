@@ -31,7 +31,7 @@ import kotlinx.android.synthetic.main.activity_main.zipCodeTextView
 class MainActivity : AppCompatActivity() {
 
   val placesApi = PlaceAPI.Builder()
-    .apiKey("YOUR_API_KEY")
+    .apiKey("Map Api Key")
     .build(this@MainActivity)
 
   var street = ""
